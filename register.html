@@ -1,42 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-</head>
-<style> 
-    form {
-        border: solid;
-        display: inline-block;
-    }
-    form div {
-        display: block;
-        padding: 5px;
-    }
-</style>
-<body>
-    <form>
-        <div>
-            <label for="fname">Full Name:</label>
-            <input type="text" placeholder="Enter Full Name" name="fname" required>
-        </div>
-        <div>
-            <label for="uname">Username:</label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-        </div>
-        <div>
-            <label for="psw">Password:</label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-        </div>
-        <div>
-            <label for="pimage">Profile Image:</label>
-            <input type="file"name="pimage" required>
-        </div>
-        <div>
-            <button type="submit">Register</button>
-        </div>          
-    </form>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login</title>
+    </head>
+    <style>
+        header nav ul li {
+            list-style: none;
+            display: inline;
+            border: solid;
+            padding: 4px;
+        }
+
+        form {
+            border: solid;
+            display: inline-block;
+        }
+        form div {
+            display: block;
+            padding: 5px;
+        }
+    </style>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <form>
+            <div>
+                <label for="fname">Full Name:</label>
+                <input type="text" placeholder="Enter Full Name" name="fname" required>
+            </div>
+            <div>
+                <label for="uname">Username:</label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+            </div>
+            <div>
+                <label for="psw">Password:</label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+            </div>
+            <div>
+                <label for="pimage">Profile Image:</label>
+                <input type="file"name="pimage" required>
+            </div>
+            <div>
+                <button type="submit">Register</button>
+            </div>          
+        </form>
+    </body>
 </html>
+    
